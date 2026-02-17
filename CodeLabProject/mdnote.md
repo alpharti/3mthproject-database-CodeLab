@@ -1,107 +1,85 @@
-# Tytuł roboczy / nazwa kodowa projektu  
-**CodeLab Playground**
+# CodeLab Playground — Platforma do praktycznej nauki programowania
+
+## Streszczenie produktu
+CodeLab Playground to interaktywna platforma edukacyjna umożliwiająca naukę programowania poprzez natychmiastową praktykę w przeglądarce. System łączy edytor kodu, automatyczną walidację zadań oraz funkcje społecznościowe wspierające zaangażowanie użytkowników.
 
 ---
 
-## Architektura
-- SPA (Single Page Application)  
-- Architektura modułowa (frontend + usługi backendowe)  
-- REST API (dla kont użytkowników i projektów)  
-- MVC (Model-View-Controller)  
+## Problem rynkowy
+- Tradycyjne kursy programowania mają niski poziom interaktywności.  
+- Użytkownicy często nie otrzymują natychmiastowej informacji zwrotnej.  
+- Budowanie portfolio wymaga korzystania z wielu narzędzi.  
 
 ---
 
-## Stack technologiczny (języki, frameworki, biblioteki)
-- HTML, CSS, JavaScript  
-- JSON, Markdown  
-- Node.js  
-- Vite  
-- marked.js (renderowanie Markdown)  
-- Firebase (uwierzytelnianie i baza danych)  
-- iframe API (podgląd w czasie rzeczywistym)  
+## Proponowane rozwiązanie
+Platforma typu „learn-by-doing”, w której użytkownik:
+
+- pisze kod w edytorze online  
+- widzi wynik w czasie rzeczywistym  
+- rozwiązuje prowadzone wyzwania  
+- automatycznie waliduje poprawność rozwiązań  
+- publikuje projekty jako część portfolio  
 
 ---
 
-## Logika biznesowa
-Platforma edukacyjna umożliwiająca naukę programowania poprzez interaktywny edytor kodu, wyzwania oraz funkcje społecznościowe.  
-Użytkownik tworzy projekty, rozwiązuje zadania, zdobywa osiągnięcia i może udostępniać swoją pracę innym.
-
----
-
-## Przykładowe funkcjonalności i przepływy danych UX/UI
-
-### **Faza 1: Basic Playground (Tydzień 1)**
-- Edytor kodu z zakładkami HTML / CSS / JS  
-- Podgląd w czasie rzeczywistym (iframe)  
-- Zapisywanie i wczytywanie projektów (localStorage)  
-- Gotowe zadania startowe  
-- Podświetlanie składni  
-
-**Przepływ:**  
-Użytkownik wpisuje kod → system renderuje wynik w iframe → projekt może zostać zapisany lokalnie.
-
----
-
-### **Faza 2: Challenges & Validation (Tydzień 2–3)**
-- Ponad 20 prowadzonych wyzwań programistycznych  
-- Automatyczne testy wizualne (porównywanie zrzutów ekranu)  
-- Odznaki postępu i osiągnięcia  
-- Galeria projektów z linkami do udostępniania  
-- Narzędzia do testowania responsywności  
-
-**Przepływ:**  
-Użytkownik rozwiązuje zadanie → system waliduje wynik → przyznawana jest odznaka → projekt może trafić do galerii.
-
----
-
-### **Faza 3: Social & Advanced (Tydzień 4+)**
-- Konta użytkowników (Firebase Auth)  
-- Publiczne udostępnianie projektów  
-- Forkowanie / remix projektów innych użytkowników  
-- Tablice wyników (leaderboards)  
-- Eksport projektów do CodePen  
-
-**Przepływ:**  
-Użytkownik publikuje projekt → trafia on do publicznej galerii → inni mogą go forkować → aktywność wpływa na ranking.
+## Kluczowe korzyści biznesowe
+- Wysoka retencja użytkowników dzięki natychmiastowej informacji zwrotnej  
+- Skalowalność — model SaaS możliwy do wdrożenia globalnie  
+- Niski próg wejścia (działa w przeglądarce)  
+- Potencjał integracji z sektorem edukacyjnym i bootcampami  
 
 ---
 
 ## Grupa docelowa
-**Odbiorcy:**  
-- Początkujący programiści  
-- Uczniowie i studenci  
-- Osoby uczące się frontend developmentu  
-
-**Potrzeby i oczekiwania:**  
-- Nauka poprzez praktykę  
-- Natychmiastowa informacja zwrotna  
-- Możliwość budowania portfolio  
-- Interakcja społecznościowa  
+- początkujący programiści  
+- uczniowie i studenci kierunków technicznych  
+- osoby zmieniające branżę  
+- organizacje szkoleniowe  
 
 ---
 
-## Wymagania techniczne
-- Nowoczesna przeglądarka (Chrome, Firefox, Edge, Safari)  
-- Stabilne połączenie internetowe (dla funkcji online)  
-- Responsywny interfejs (desktop + mobile)  
+## Możliwe modele monetyzacji
+- subskrypcja premium  
+- dostęp dla szkół i firm (licencje B2B)  
+- płatne ścieżki edukacyjne  
+- marketplace projektów / kursów  
 
 ---
 
-## Wymagania prawne
-- Zgodność z RODO (cookies, przetwarzanie danych użytkowników)  
-- Jasne warunki licencyjne dla publikowanych projektów  
-- Poszanowanie praw autorskich  
+## Zakres funkcjonalny (high-level)
+
+### Etap 1 — MVP
+- edytor kodu z podglądem live  
+- zapisywanie projektów  
+- zestaw zadań startowych  
+
+### Etap 2
+- automatyczna walidacja  
+- system osiągnięć  
+- publiczna galeria projektów  
+
+### Etap 3
+- konta użytkowników  
+- funkcje społecznościowe  
+- rankingi  
+- eksport projektów  
 
 ---
 
-## Standaryzacja
-- WCAG 2.1 — dostępność cyfrowa  
-- SEO — optymalizacja treści publicznych  
+## Stack technologiczny
+(Node.js, JavaScript, Firebase, Vite, HTML, CSS)
+
+Szczegółowa architektura dostępna w dokumentacji technicznej.
 
 ---
 
-## Standardowe wymagania końcowe projektu
-- Dokumentacja techniczna kodu (JSDoc, itp.)  
-- Dokumentacja Markdown logiki biznesowej i architektury  
-- Instrukcja uruchomienia projektu  
-- Opis API  
+## Zgodność i standardy
+- RODO  
+- WCAG 2.1  
+- dobre praktyki bezpieczeństwa aplikacji webowych  
+
+---
+
+## Status projektu
+Gotowy do realizacji w modelu etapowym (MVP → rozwój funkcjonalny).
