@@ -1,85 +1,48 @@
-# CodeLab Playground — Platforma do praktycznej nauki programowania
+# CodeLab Playground – learn-by-doing coding platform
 
-## Streszczenie produktu
-CodeLab Playground to interaktywna platforma edukacyjna umożliwiająca naukę programowania poprzez natychmiastową praktykę w przeglądarce. System łączy edytor kodu, automatyczną walidację zadań oraz funkcje społecznościowe wspierające zaangażowanie użytkowników.
+## Co to jest
+Interaktywna platforma do nauki programowania w przeglądarce  
+→ piszesz kod → od razu widzisz wynik + walidacja
 
----
+## Główne problemy, które rozwiązuje
+- Brak natychmiastowej informacji zwrotnej  
+- Niska interaktywność kursów online  
+- Rozproszone narzędzia do portfolio
 
-## Problem rynkowy
-- Tradycyjne kursy programowania mają niski poziom interaktywności.  
-- Użytkownicy często nie otrzymują natychmiastowej informacji zwrotnej.  
-- Budowanie portfolio wymaga korzystania z wielu narzędzi.  
+## Core value
+Natychmiastowa walidacja kodu + live preview + budowanie portfolio w jednym miejscu
 
----
+## Dla kogo (priorytet)
+1. Początkujący (15–25 lat)  
+2. Bootcampowicze i studenci kierunków IT  
+3. Switcherzy do IT
 
-## Proponowane rozwiązanie
-Platforma typu „learn-by-doing”, w której użytkownik:
+## Monetyzacja (realistyczne opcje)
+- Freemium + subskrypcja premium  
+- Licencje B2B dla szkół/bootcampów/firm  
+- Płatne specjalizacje / certyfikowane ścieżki
 
-- pisze kod w edytorze online  
-- widzi wynik w czasie rzeczywistym  
-- rozwiązuje prowadzone wyzwania  
-- automatycznie waliduje poprawność rozwiązań  
-- publikuje projekty jako część portfolio  
+## MVP – must have (minimum do testów)
+- Edytor kodu + live preview  
+- 15–25 prostych zadań z automatyczną walidacją  
+- Możliwość zapisu projektu (lokalnie / chmura)  
+- Prosty system logowania (email / Google)
 
----
+## Planowane kolejne etapy
+2. Automatyczna walidacja + testy jednostkowe  
+3. Galeria projektów + like/share  
+4. Osiągnięcia, ranking, publiczna ściana kodu  
+5. Eksport (GitHub, ZIP, PDF z kodem)
 
-## Kluczowe korzyści biznesowe
-- Wysoka retencja użytkowników dzięki natychmiastowej informacji zwrotnej  
-- Skalowalność — model SaaS możliwy do wdrożenia globalnie  
-- Niski próg wejścia (działa w przeglądarce)  
-- Potencjał integracji z sektorem edukacyjnym i bootcampami  
+## Technologia (MVP)
+- Frontend: Vite + React / Svelte  
+- Backend: Node.js / Firebase  
+- Walidacja kodu: sandbox (vm2 / isolated-vm / WebContainers?)  
+- Przechowywanie: Firebase Firestore + Storage
 
----
+## Status
+✔ Koncepcja  
+✔ Zakres MVP  
+⏳ Gotowy do kodowania
 
-## Grupa docelowa
-- początkujący programiści  
-- uczniowie i studenci kierunków technicznych  
-- osoby zmieniające branżę  
-- organizacje szkoleniowe  
-
----
-
-## Możliwe modele monetyzacji
-- subskrypcja premium  
-- dostęp dla szkół i firm (licencje B2B)  
-- płatne ścieżki edukacyjne  
-- marketplace projektów / kursów  
-
----
-
-## Zakres funkcjonalny (high-level)
-
-### Etap 1 — MVP
-- edytor kodu z podglądem live  
-- zapisywanie projektów  
-- zestaw zadań startowych  
-
-### Etap 2
-- automatyczna walidacja  
-- system osiągnięć  
-- publiczna galeria projektów  
-
-### Etap 3
-- konta użytkowników  
-- funkcje społecznościowe  
-- rankingi  
-- eksport projektów  
-
----
-
-## Stack technologiczny
-(Node.js, JavaScript, Firebase, Vite, HTML, CSS)
-
-Szczegółowa architektura dostępna w dokumentacji technicznej.
-
----
-
-## Zgodność i standardy
-- RODO  
-- WCAG 2.1  
-- dobre praktyki bezpieczeństwa aplikacji webowych  
-
----
-
-## Status projektu
-Gotowy do realizacji w modelu etapowym (MVP → rozwój funkcjonalny).
+Plan: MVP w 8–12 tygodni (1–2 dev full-time)
