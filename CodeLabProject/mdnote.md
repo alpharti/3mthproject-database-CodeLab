@@ -17,10 +17,11 @@ Natychmiastowa walidacja kodu + live preview + budowanie portfolio w jednym miej
 2. Bootcampowicze i studenci kierunków IT  
 3. Switcherzy do IT
 
-## Monetyzacja (realistyczne opcje)
-- Freemium + subskrypcja premium  
-- Licencje B2B dla szkół/bootcampów/firm  
-- Płatne specjalizacje / certyfikowane ścieżki
+## kompilatory (możliwe do użycia)
+JS ES6
+-wandbox
+-sql-wasm.js
+-pyodide.js
 
 ## MVP – must have (minimum do testów)
 - Edytor kodu + live preview  
@@ -46,3 +47,4 @@ Natychmiastowa walidacja kodu + live preview + budowanie portfolio w jednym miej
 ⏳ Gotowy do kodowania
 
 Plan: MVP w 8–12 tygodni (1–2 dev full-time)
+
