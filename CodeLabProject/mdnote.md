@@ -32,14 +32,6 @@ JS ES6
 ## Planowane kolejne etapy
 2. Automatyczna walidacja + testy jednostkowe  
 3. Galeria projektów + like/share  
-4. Osiągnięcia, ranking, publiczna ściana kodu  
-5. Eksport (GitHub, ZIP, PDF z kodem)
-
-## Technologia (MVP)
-- Frontend: Vite + React / Svelte  
-- Backend: Node.js / Firebase  
-- Walidacja kodu: sandbox (vm2 / isolated-vm / WebContainers?)  
-- Przechowywanie: Firebase Firestore + Storage
 
 ## Status
 ✔ Koncepcja  
